@@ -1,16 +1,5 @@
-from sqlalchemy import (
-    Column,
-    Integer,
-    String,
-    DateTime,
-    JSON,
-    UniqueConstraint,
-    Index,
-)
-from sqlalchemy.sql import func
-
+from sqlalchemy import Column, String, Integer, DateTime, JSON, func, UniqueConstraint, Index
 from app.db.session import Base
-
 
 class ProcessorEvent(Base):
     __tablename__ = "processor_events"

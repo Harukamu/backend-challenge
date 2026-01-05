@@ -1,16 +1,8 @@
-from sqlalchemy import (
-    Column,
-    Integer,
-    String,
-    DateTime,
-    ForeignKey,
-    Index,
-)
+from sqlalchemy import Column, Integer, String, DateTime, ForeignKey, Index
 from sqlalchemy.sql import func
 from sqlalchemy.orm import relationship
 
 from app.db.session import Base
-
 
 class LedgerEntry(Base):
     __tablename__ = "ledger_entries"

@@ -1,13 +1,10 @@
 fastapi
 uvicorn[standard]
-
 sqlalchemy>=2.0
 asyncpg
-
+anyio
 pydantic-settings
 python-dotenv
-
 alembic
-
 pytest
 httpx

@@ -1,0 +1,1 @@
+{"event_id":"evt_0001","event_type":"charge_succeeded","occurred_at":"2025-12-20T15:10:00Z","restaurant_id":"res_001","currency":"PEN","amount":12000,"fee":600,"metadata":{"reservation_id":"rsv_987","payment_id":"pay_456"}}
